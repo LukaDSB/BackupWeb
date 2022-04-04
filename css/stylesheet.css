@@ -1,0 +1,187 @@
+/* 
+ Lucas de Souza Benevenute
+ Matricula: 2018206158
+}*/
+
+body{
+    overflow: hidden;
+}
+
+.titulo{
+    display: flex;
+    background-color: #006600;
+    width: 80%;
+    height: 200px;
+    color: white;
+    font-weight: bolder;
+    font-size: 15px;
+    justify-content: right;
+    align-items: center;
+    text-align: right;
+}
+
+.titulo p{
+    margin-right: 35px;
+}
+
+.menuDeLinks{
+    margin-top: 5px;
+    display: flex;
+    background-color: #002060;
+    width: 100%;
+    height: 50px;
+    justify-content: right;
+    align-items: center;
+    padding-right: 500px;
+}
+
+.menuDeLinks p{
+    font-family: Tahoma;
+    font-size: 15pt;
+    padding-right: 100px;
+    color: yellow;
+}
+
+.menuDeLinks a{
+    text-decoration: none;
+}
+
+.menuDeLinks p:hover{
+    font-family: Tahoma;
+    font-size: 17pt;
+    color: #800000 ;
+    text-decoration: underline;
+    font-weight: bold;
+    padding-right: 100px;
+}
+
+.logo{
+    display:flex;
+    width: 20%;
+    height: 200px;
+    float: left;
+    justify-content: center;
+}
+
+.logo img{
+    width: 100%;
+    height: auto;
+    opacity: 0.5;
+    border: thin dashed;
+}
+
+.hoteis{
+    width: 100%;
+    height: 50vh;
+    margin-top: 5px ;
+    font-family: Verdana;
+}
+
+.hoteis img{
+    width: 100%;
+    height: auto;
+}
+
+#card1{
+    float: left;
+    width: 20vw;
+    height: 50vh;
+    margin-left: 200px;
+}
+
+#card2{
+    float: left;
+    width: 20vw;
+    height: 50vh;
+    background-color: yellow;
+    margin-left: 200px;
+}
+
+#card3{
+    margin-left: 200px;
+    float: left;
+    width: 20vw;
+    height: 50vh;
+    background-color: brown;
+}
+
+.hoteis #card1 p{
+    color: #57829d;
+}
+
+.hoteis #card1 p span{
+    font-weight: bold;
+}
+
+.hoteis #card2 p span{
+    font-weight: bold;
+}
+
+.hoteis #card1 p span{
+    font-weight: bold;
+}
+
+table{
+    border:1px solid black;
+}
+
+table img{
+    width: 100%;
+    height: auto;
+}
+
+table th{
+    border:1px solid black;
+}
+
+table td{
+    border:1px solid black;
+}
+
+table #tabelaLinha1{
+    font-family: Georgia;
+    font-size: 24px;
+    text-align: left;
+    color: white;
+    background-color: #943634;
+}
+
+table #tabelaLinha2{
+    font-family: Calibri;
+    font-size: 14pt;
+    text-align: left;
+    color: black;
+    background-color: #F2DBDB;
+}
+
+table #tabelaLinha3{
+    font-family: Calibri;
+    font-size: 16pt;
+    text-align: left;
+    color: black;
+    background-color: #F2DBDB;
+    font-weight: bold;
+}
+
+table #tabelaLinha4{
+    font-family: Georgia;
+    font-size: 18pt;
+    text-align: right;
+    color: #4F81BD;
+    background-color: #F2DBDB;
+    font-weight: bold;
+}
+
+table #tabelaLinha5{
+    font-family: Calibri;
+    font-size: 10pt;
+    text-align: left;
+    color: black;
+    background-color: #F2DBDB;
+}
+
+table #tabelaLinha6{
+    display: flex;
+    justify-content: center;
+    background-color: #F2F2F2;
+}
