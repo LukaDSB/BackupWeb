@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    display: flex;
+    top: 0px;
+    left: 0px;
+    background-color: blue;
+    height: 10vh;
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbarLogo{
+    position: absolute;
+    left: 20px;
+}
+
+.navbarList a{
+    text-decoration: none;
+}
+
+.navbarList li{
+    display: inline;
+    list-style-type: none;
+    padding: 0 10px 0 20px;
+    color: white;
+}
+
+.main{
+    position: inherit;
+    width: 80%;
+    height: 80vh;
+    margin: 5vh auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.mainHeader{
+    position: relative;
+    left: 13%;
+}
+
+.mainCards{
+    position: relative;
+    width: 80%;
+    height: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.card{
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://blog.portalpos.com.br/app/uploads/2021/12/desenvolvimento-web.jpg');
+    border-radius: 20px;
+    box-shadow: 7px 7px 13px 0 black;
+    width: 18vw;
+    height: 45vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    color: white;
+}
+
+.cardContent{
+    margin: 0 0 30px 10px;
+}
+
+.contato{
+    background-color: blue;
+    width: 100%;
+    height: 80vh;
+    margin: 5vh auto;
+}
