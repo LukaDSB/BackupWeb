@@ -5,6 +5,8 @@
 
 body{
     overflow-x: hidden;
+    font-family: Poppins;
+    font-style: normal;
 }
 
 .navbar{
@@ -12,11 +14,12 @@ body{
     top: 0px;
     left: 0px;
     background-color: #2d56de;
-    height: 10vh;
+    height: 12vh;
     width: 100%;
     display: inline-flex;
     justify-content: center;
     align-items: center;
+    font-size: 20px;
 }
 
 .navbarLogo{
@@ -47,6 +50,10 @@ body{
     padding-left: 10px;
 }
 
+.navbarList li:hover{
+    font-size: 22px;
+}
+
 .main{
     position: inherit;
     width: 80%;
@@ -60,6 +67,8 @@ body{
 .mainHeader{
     position: relative;
     left: 13%;
+    font-size: 22px;
+    margin-top: 45px;
 }
 
 .mainCards{
@@ -74,7 +83,7 @@ body{
 }
 
 .card{
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://blog.portalpos.com.br/app/uploads/2021/12/desenvolvimento-web.jpg');
+    background: url('https://c.neh.tw/thumb/f/720/90853687676949969899.jpg');
     border-radius: 20px;
     box-shadow: 7px 7px 13px 0 black;
     width: 18vw;
@@ -85,8 +94,18 @@ body{
     color: white;
 }
 
+.card:hover{
+    width: 20vw;
+    height: 47vh;
+    cursor: pointer;
+}
+
 .cardContent{
     margin: 0 0 30px 10px;
+}
+
+.cardContent h4{
+    color: darkgray;
 }
 
 .cardContent button{
@@ -98,6 +117,9 @@ body{
     display: block;
     width: 80%;
     margin: 2vh auto 0 auto;;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 16px;
 }
 
 .contato{
@@ -105,6 +127,7 @@ body{
     width: 100%;
     height: 80vh;
     margin: 5vh auto 0;
+    justify-content: center;
 }
 
 footer{
@@ -117,11 +140,12 @@ footer{
 .footerEndereco{
     display: flex;
     color: white;
-    position: absolute;
+    position: relative;
     align-items: left;
-    flex-direction: column;
     left: 30px;
-    margin-top: 75px;
+    width: 95%;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .footerContent{
@@ -138,4 +162,21 @@ footer{
 .footerContent li{
     display: inline;
     list-style-type: none;
+}
+
+.contatoHeader{
+    color:white;
+    position: absolute;
+    text-align: right;
+    right: 12%;
+    margin-top: auto;
+}
+
+.formContainer{
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid;
+    width: 80%;
+    height: 20vh;
 }
