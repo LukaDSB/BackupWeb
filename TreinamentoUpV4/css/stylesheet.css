@@ -3,11 +3,15 @@
     padding: 0;
 }
 
+body{
+    overflow-x: hidden;
+}
+
 .navbar{
     display: flex;
     top: 0px;
     left: 0px;
-    background-color: blue;
+    background-color: #2d56de;
     height: 10vh;
     width: 100%;
     display: inline-flex;
@@ -29,13 +33,25 @@
     list-style-type: none;
     padding: 0 10px 0 20px;
     color: white;
+    font-weight: 600;
+}
+
+.navbarList span{
+    background-color: white;
+    border-radius: 4px 14px;
+    padding: 5px 0;
+}
+
+.navbarList span li{
+    color: #2d56de;
+    padding-left: 10px;
 }
 
 .main{
     position: inherit;
     width: 80%;
     height: 80vh;
-    margin: 5vh auto;
+    margin: -50px auto 0 ;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -73,9 +89,53 @@
     margin: 0 0 30px 10px;
 }
 
+.cardContent button{
+    color: white;
+    border-style: none;
+    background-color: #2d56de;
+    height: 5vh;
+    border-radius: 6px 20px;
+    display: block;
+    width: 80%;
+    margin: 2vh auto 0 auto;;
+}
+
 .contato{
-    background-color: blue;
+    background-color: #2d56de;
     width: 100%;
     height: 80vh;
-    margin: 5vh auto;
+    margin: 5vh auto 0;
+}
+
+footer{
+    background-color: #102156;
+    width: 100%;
+    height: 20vh;
+    display: flex;
+}
+
+.footerEndereco{
+    display: flex;
+    color: white;
+    position: absolute;
+    align-items: left;
+    flex-direction: column;
+    left: 30px;
+    margin-top: 75px;
+}
+
+.footerContent{
+    display: flex;
+    position: relative;
+    right: 30px;
+    color: white;
+    width: 50%;
+    left: 49%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footerContent li{
+    display: inline;
+    list-style-type: none;
 }
