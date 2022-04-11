@@ -5,6 +5,10 @@
 
 body{
     overflow-x: hidden;
+}
+
+body h1 h2 h3 h4 h5{
+    overflow-x: hidden;
     font-family: Poppins;
     font-style: normal;
 }
@@ -137,6 +141,13 @@ footer{
     display: flex;
 }
 
+footer img{
+    margin-left: 2.6vw;
+    width: 50%;
+    height: auto;
+}
+
+
 .footerEndereco{
     display: flex;
     color: white;
@@ -164,6 +175,10 @@ footer{
     list-style-type: none;
 }
 
+.footerCenter{
+    margin-bottom: 6vh;
+}
+
 .contatoHeader{
     color:white;
     position: absolute;
@@ -172,15 +187,18 @@ footer{
     width: 84%;
 }
 
+.contatoHeader h4{
+    color: lightgray;
+}
+
 .formContainer{
     margin-left: auto;
     margin-right: auto;
     width: 66%;
     position: relative;
     top: 26%;
-    height: 20vh;
     background-color: white;
-    border-radius: 8px 20px ;
+    border-radius: 16px 48px ;
 }
 
 .form{
@@ -194,10 +212,31 @@ footer{
     justify-content: space-between;
     top: 8%;
     font-size: 25px;
+    padding-bottom: 10vh;
+    padding-top: 5vh;
 }
 
 .form input{
     display: block;
+}
+
+.form button{
+    position: absolute;
+    bottom: 2vh;
+    right: 5vw;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    background-color: #2d56de;
+    border: none;
+    padding: 9px;
+    border-radius: 8px 24px;
+    cursor: pointer;
+}   
+
+.form button:hover{
+    padding: 11px;
+    bottom:1vh;
 }
 
 .flex{
@@ -239,6 +278,10 @@ footer{
     font-size: 16px;
 }
 
-.main{
-    background-image: url('https://pm1.narvii.com/8016/75ad44c87e131a5189bd312995d9bb260c4b1636r1-665-461v2_00.jpg');
+.footerCenter a{
+    color: white;
+}
+
+.footerCenter h4{
+    margin-top: 2vh;
 }
