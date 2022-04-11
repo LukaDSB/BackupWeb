@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:sans-serif;
+}
+
+.navbar{
+    display: block;
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+}
+
+.navbar img{
+    position: relative;
+    right: 39vw;
+}
+
+.navbar li{
+    list-style-type: none;
+    display: inline;
+    color: white;
+    margin: 0 1vw;
+    font-size: 1.4em;
+}
+
+.content{
+    margin: 10vh auto;
+    width: 80%;
+}
+
+.jobs{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card{
+    margin-top: 5vh;
+    width: 15vw;
+    background-color: purple;
+    height: 35vh;
+    border-radius: 17px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.card button{
+    width: 10vw;
+    position: relative;
+    left: 1.5vw;
+    background-color: blue;
+    border: none;
+    border-radius: 7px 14px;
+    padding: 5px;
+    margin-top: 1.3vh;
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+.cardContent{
+    position: relative;
+    bottom: 3vh;
+    left: 1vw;
+}
+
+.contatoContent{
+    background-color: blue;
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+}
+
+.formContainer{
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    height: 20vh;
+    width: 80%;
+    border-radius: 10px 30px ;
+}
+
+footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: darkblue;
+    color: white;
+    height: 10vh;
+}
+
+.footerLeft{
+    margin-left: 5vw;
+}
+
+.footerRight{
+    margin-right: 5vw;
+}
